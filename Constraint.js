@@ -6,6 +6,7 @@ class Chain {
             stiffness: 0.04,
             length: 10
         }
+        
       this.chain=Constraint.create(options);
       World.add(world,this.chain);  
     }
